@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/85c5dfec3f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/master.css">
+    <title>JavaScript Project</title>
+</head>
+
+<body>
+    <!-- start setting box  -->
+    <div class="setting-box">
+        <div class="setting-icon">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+        <div class="setting-option">
+            <h4>color</h4>
+            <ul class="color-options">
+                <li class="selected" data-color="#dd4646"></li>
+                <li data-color="#a8eba8"></li>
+                <li data-color="#f57a7a"></li>
+                <li data-color="#add8f3"></li>
+            </ul>
+        </div>
+        <div class="setting-option">
+            <h4>Random BackGround</h4>
+            <ul class="background-options">
+                <li class="selected" data-option="yes">Yes</li>
+                <li data-option="no">No</li>
+            </ul>
+        </div>
+        <div class="setting-option">
+            <h4>Show Bullets</h4>
+            <ul class="bullets-options">
+                <li class="selected" data-option="yes">Yes</li>
+                <li data-option="no">No</li>
+            </ul>
+        </div>
+    </div>
+    <!-- end setting box  -->
+    <!-- start bullets section  -->
+    <div class="bullets-section">
+        <div data-section=".about-us"><span>About Us</span></div>
+        <div data-section=".skills"><span>Skills</span></div>
+        <div data-section=".gallery"><span>Gallery</span></div>
+        <div data-section=".timeline"><span>Timeline</span></div>
+        <div data-section=".features"><span>Features</span></div>
+        <div data-section=".testimonials"><span>Testimonials</span></div>
+        <div data-section=".contact"><span>Contact Us</span></div>
+    </div>
+    <!-- end bullets section  -->
+    <!-- start landing section  -->
+    <div class="landing-section">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <h5>Special Design</h5>
+                </div>
+                <i class="fa-solid fa-bars"></i>
+                <div class="menu">
+                    <i class="fa-solid fa-square-xmark"></i>
+                    <ul class="main-links">
+                        <li><a class="active"  data-section=".about-us">About Us</a></li>
+                        <li><a  data-section=".skills">Skills</a></li>
+                        <li><a  data-section=".gallery">Gallery</a></li>
+                        <li><a  data-section=".timeline">Timeline</a></li>
+                        <li><a  data-section=".features">Features</a></li>
+                        <li><a  data-section=".testimonials">Testimonials</a></li>
+                        <li><a  data-section=".contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <h4>We Are <span>Creative</span> Company</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel possimus voluptate aliquam fugiat quo
+                    dolorum soluta</p>
+            </div>
+        </div>
+    </div>
+    <!-- end landing section  -->
+    <!-- start about us section  -->
+    <div class="about-us">
+        <div class="container">
+            <div class="content">
+                <h3>About Us</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto corrupti repudiandae deleniti
+                    veritatis minus, mollitia accusantium sit porro ullam nesciunt ad. Quod quasi dignissimos
+                    asperiores, delectus minima placeat illo ab.</p>
+            </div>
+            <img src="assets/imgs/about-us.jpg" alt="">
+        </div>
+    </div>
+    <!-- end about us section  -->
+    <!-- start skills section  -->
+    <div class="skills">
+        <div class="container">
+            <h4>Our Skills</h4>
+            <div class="content">
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="progress"><span data-progress="90%"></span></div>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="progress"><span data-progress="80%"></span></div>
+                </div>
+                <div class="skill">
+                    <span>JAVASCRIPT</span>
+                    <div class="progress"><span data-progress="70%"></span></div>
+                </div>
+                <div class="skill">
+                    <span>PHP</span>
+                    <div class="progress"><span data-progress="85%"></span></div>
+                </div>
+                <div class="skill">
+                    <span>MYSQL</span>
+                    <div class="progress"><span data-progress="75%"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end skills section  -->
+    <!-- start our gallery section -->
+    <div class="gallery">
+        <div class="container">
+            <h4>Our Gallery</h4>
+            <div class="content">
+                <div class="img-box"><img src="assets/imgs/01.jpg" alt="image one"></div>
+                <div class="img-box"><img src="assets/imgs/02.jpg" alt="image two"></div>
+                <div class="img-box"><img src="assets/imgs/03.jpg" alt="image three"></div>
+                <div class="img-box"><img src="assets/imgs/04.jpg" alt="image four"></div>
+                <div class="img-box"><img src="assets/imgs/05.jpg" alt=""></div>
+                <div class="img-box"><img src="assets/imgs/06.png" alt=""></div>
+                <div class="img-box"><img src="assets/imgs/07.jpg" alt=""></div>
+                <div class="img-box"><img src="assets/imgs/08.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <!-- end our gallery section -->
+    <!-- start timeline section -->
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-1">
+                <div class="box-1">
+                    <h4>Testing Heading</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo consequatur fuga voluptatem. Aut
+                        officia quam provident minima non perferendis, eveniet dolorum odio nam cupiditate, sit
+                        doloremque, praesentium id nihil quas.</p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="box-2">
+                    <h4>Testing Heading</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo consequatur fuga voluptatem. Aut
+                        officia quam provident minima non perferendis, eveniet dolorum odio nam cupiditate, sit
+                        doloremque, praesentium id nihil quas.</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="timeline-2">
+                <div class="box-3">
+                    <h4>Testing Heading</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo consequatur fuga voluptatem. Aut
+                        officia quam provident minima non perferendis, eveniet dolorum odio nam cupiditate, sit
+                        doloremque, praesentium id nihil quas.</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end timeline section -->
+    <!-- start features section -->
+    <div class="features">
+        <div class="container">
+            <h4>Our Features</h4>
+            <div class="content">
+                <div class="feat-box">
+                    <img src="assets/imgs/programming.svg" alt="">
+                    <h4>Development</h4>
+                    <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="assets/imgs/advertising.svg" alt="">
+                    <h4>Marketing</h4>
+                    <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="assets/imgs/hosting-icon.svg" alt="">
+                    <h4>Hosting</h4>
+                    <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="assets/imgs/mobile-app.svg" alt="">
+                    <h4>Mobile Develope</h4>
+                    <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="assets/imgs/graphic-design.svg" alt="">
+                    <h4>Cloud and Servers</h4>
+                    <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="assets/imgs/web-design.svg" alt="">
+                    <h4>Seo</h4>
+                    <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end features section -->
+    <!-- start testimonials section -->
+    <div class="testimonials">
+        <div class="container">
+            <h4>Testimonials</h4>
+            <div class="content">
+                <div class="ts-box">
+                    <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+                    <div class="person-info">
+                        <img src="https://placehold.it/80/DDD" alt="">
+                        <h4>Ahmed Mosaad</h4>
+                        <p>CEO At Company</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+                    <div class="person-info">
+                        <img src="https://placehold.it/80/DDD" alt="">
+                        <h4>Ahmed Mosaad</h4>
+                        <p>CEO At Company</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+                    <div class="person-info">
+                        <img src="https://placehold.it/80/DDD" alt="">
+                        <h4>Ahmed Mosaad</h4>
+                        <p>CEO At Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end testimonials section -->
+    <!-- start contact section -->
+    <div class="contact">
+        <div class="container">
+            <h4>Contact Us</h4>
+            <div class="content">
+                <div class="left">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Your Phone">
+                    <input type="text" placeholder="Your Email">
+                    <input type="text" placeholder="Your Subject">
+                </div>
+                <div class="right">
+                    <textarea placeholder="Your Message"></textarea>
+                    <button>Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact section -->
+    <!-- start footer section -->
+    <div class="footer">
+        <div>Created With Love By Adel El3raky</div>
+    </div>
+    <!-- end footer section -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
