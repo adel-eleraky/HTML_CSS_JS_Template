@@ -127,6 +127,7 @@ mainLinks.forEach(link => {
 
     link.addEventListener("click" , (e) => {
 
+        // scroll to selected link
         document.querySelector(e.target.dataset.section).scrollIntoView({
             behavior: "smooth"
         });
